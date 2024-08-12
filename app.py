@@ -11,8 +11,7 @@ import re
 
 print('---------------->>>>>>>>>>Imported packages>>>>>>>>>>>>>>>--------------')
 
-#model_path = "C:/Users/ankee/OneDrive/Desktop/My_Chatbot/llama_model/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf"
-model_path = "C:/Users/ankee/OneDrive/Desktop/My_Chatbot/llama_model/llama-2-7b-chat.Q4_K_M.gguf"
+model_path = "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf"
 
 callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 llm = LlamaCpp(
