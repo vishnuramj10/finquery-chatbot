@@ -9,6 +9,8 @@ This chatbot is designed for bank queries and is an offline CPU chatbot to maint
 
 The chatbot is designed using Flask Application. The LLM model can be updated when a newer version of a Quantized model is released.
 
+The chatbot connect to any SQL DB; currently it is trained to run and generate queries for MySQL Server. If wanting to use a separate SQL engine; have to update the schema and the prompt and provide the new sql engine query parameter.
+
 ## Architecture
 
 <img width="457" alt="Screen Shot 2024-08-12 at 2 41 15 PM" src="https://github.com/user-attachments/assets/8e6454ec-1d00-4857-81a3-92f704d4625b">
