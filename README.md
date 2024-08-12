@@ -7,4 +7,4 @@ The model can be downloaded here - https://huggingface.co/bartowski/Meta-Llama-3
 
 This chatbot is designed for bank queries and is an offline CPU chatbot to maintain privacy of the bank details.
 
-The chatbot is designed using Flask Application.
+The chatbot is designed using Flask Application. The LLM model can be updated when a newer version of a Quantized model is released.
