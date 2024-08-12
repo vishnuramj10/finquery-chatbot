@@ -21,4 +21,17 @@ Results -
 <img width="820" alt="Screen Shot 2024-08-12 at 2 42 55 PM" src="https://github.com/user-attachments/assets/01b570f1-a86c-4c8f-b4dc-96e392c32922">
 
 
+## Limitations
+
+- Using GPUs or cloud services will maximize the utilization of LLM models and provide answers within seconds, unlike CPUs which tend to maximize CPU utilization.
+
+- Limiting ourselves to CPU GGUF quantized models compromises accuracy and restricts prompt engineering improvements needed to enhance accuracies.
+  
+- CPU GGUF models tend to hallucinate(inaccurate answers) more frequently than usual. Prompting again can be helpful.
+  
+- The model experiences significant latency and crashes due to maximum CPU utilization giving nonsensical answers.
+  
+- Sometimes, the LLM provides incorrect answers to the same question, but it may give the correct response if prompted again.
+
+
 
