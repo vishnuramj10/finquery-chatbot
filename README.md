@@ -1,4 +1,4 @@
-# finquery-chatbot
+# Finquery - chatbot
 
 
 This is a SQL chatbot using Python Langchain framework and LLAMA-CPP - LLama 8B Instruct GGUF LLM Model.
@@ -9,7 +9,7 @@ This chatbot is designed for bank queries and is an offline CPU chatbot to maint
 
 The chatbot is designed using Flask Application. The LLM model can be updated when a newer version of a Quantized model is released.
 
-Architecture
+### Architecture
 
 <img width="457" alt="Screen Shot 2024-08-12 at 2 41 15 PM" src="https://github.com/user-attachments/assets/8e6454ec-1d00-4857-81a3-92f704d4625b">
 
